@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 29, 2020 at 03:21 PM
--- Server version: 10.3.16-MariaDB
--- PHP Version: 7.3.7
+-- Generation Time: Dec 12, 2022 at 06:30 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -41,9 +40,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_name`, `user_email`, `user_password`, `user_address`) VALUES
-(1, 'M Fikri', 'sdvdfb@gmail.com', '$2y$10$D1S2/ARNuxEYXN3IaWt8Eurl3RLDEqYEtmF/IYx//SazhMc8rZqeO', 'Bekasi'),
-(2, 'M Fikri', 'sdvdfb2@gmail.com', '$2y$10$LITUhs0rOrIWyzutxxSLdeJgXvaRKk5yTCAcFm7dElyEJFdk8BnMq', 'Jakarta'),
-(3, 'M Fikri', 'mfikri@gmail.com', '$2y$10$0UiB.yR1kkOU1.wU6oLiOeyFogUd9sHFdP4QZS.uce7n1s7BJzjia', 'Bandung');
+(4, 'Alwi', 'alwifachri@yahoo.co.id', '$2y$10$kQEBjeDzEvVxreotsvtPQ.6Lr1l93GTtX4KE6SuZa3le5yWoKcQR.', 'Bekasi');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +60,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
