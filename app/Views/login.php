@@ -10,7 +10,7 @@
     <title>Login</title>
 </head>
 
-<body>
+<body style="height: 100%;">
     <nav class="navbar navbar-expand-lg" style="background-color: #C58940;">
         <div class="container-fluid">
             <a class="navbar-brand text-white" href="#">Toast Bread</a>
