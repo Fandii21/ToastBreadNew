@@ -1,0 +1,11 @@
+CRITICAL - 2022-12-19 08:39:38 --> Unable to connect to the database.
+#0 C:\Users\Alwi Fachri\Downloads\Compressed\login-register-CodeIgniter4-master\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Alwi Fachri\Downloads\Compressed\login-register-CodeIgniter4-master\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Alwi Fachri\Downloads\Compressed\login-register-CodeIgniter4-master\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Alwi Fachri\Downloads\Compressed\login-register-CodeIgniter4-master\app\Controllers\Login.php(22): CodeIgniter\Model->first()
+#4 C:\Users\Alwi Fachri\Downloads\Compressed\login-register-CodeIgniter4-master\system\CodeIgniter.php(918): App\Controllers\Login->auth()
+#5 C:\Users\Alwi Fachri\Downloads\Compressed\login-register-CodeIgniter4-master\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\Users\Alwi Fachri\Downloads\Compressed\login-register-CodeIgniter4-master\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Alwi Fachri\Downloads\Compressed\login-register-CodeIgniter4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Alwi Fachri\Downloads\Compressed\login-register-CodeIgniter4-master\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Alwi F...')
+#9 {main}
